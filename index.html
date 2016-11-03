@@ -1,55 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
     <title>Robin Baumann</title>
 
-    <link rel="stylesheet" href="styles/material.min.css">
-    <script src="scripts/material.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <!-- Uses a transparent header that draws on top of the layout's background -->
-    <style>
-        .layout-transparent {
-            background: url('images/baustelle.jpg') center / cover;
-        }
-        .layout-transparent .mdl-layout__header,
-        .layout-transparent .mdl-layout__drawer-button {
-            /* This background is dark, so we set text to white. Use 87% black instead if
-               your background is light. */
-            color: white;
-        }
-    </style>
-
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 </head>
-<body>
+<body id="top" class="scrollspy">
 
-<div class="layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <span class="mdl-layout-title">Robin Baumann</span>
-            <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>
-            <!-- Navigation -->
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">About</a>
-                <a class="mdl-navigation__link" href="">Contact</a>
-                <a class="mdl-navigation__link" href="">Imprint</a>
-            </nav>
-        </div>
-    </header>
-    <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Robin Baumann</span>
-        <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">About</a>
-            <a class="mdl-navigation__link" href="">Contact</a>
-            <a class="mdl-navigation__link" href="">Imprint</a>
-        </nav>
-    </div>
-    <main class="mdl-layout__content">
-    </main>
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
 </div>
 
-</body>
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo">Robin Baumann</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Hero-->
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="text_h center header cd-headline letters type">
+            <span>HI! I'm <strong>Robin Baumann</strong></span>
+        </h1>
+        <h3 class="brand-logo">Computer science student from Karlsruhe, Germany.</h3>
+    </div>
+</div>
+
+<!--Intro and service-->
+<div id="about" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2"> About Me </h2>
+            </div>
+
+            <div  class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">Profile</h5>
+                    <p class="light center">I'm a student of applied computer science at the Baden-Wuerttemberg Cooperative State University in Karlsruhe, Germany. Alongside my studies I love to make music in different ensembles and orchestras and I'm also fond of doing different sports.</p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <img src="img/me.png" alt="Picture of me in black/white" style="border-radius: 50%" />
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">Detail</h5>
+                    <table>
+                        <tr>
+                            <td><span class="span_h2">Name:</span></td>
+                            <td>Robin Baumann</td>
+                        </tr>
+                        <tr>
+                            <td><span class="span_h2">Age:</span></td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td><span class="span_h2">Location:</span></td>
+                            <td>Karlsruhe, Germany</td>
+                        </tr>
+                        <tr>
+                            <td><span class="span_h2">Hobbies:</span></td>
+                            <td>Playing Saxophone, different sports</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/gears.jpg"></div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">  
+        <div class="row">
+            <div class="col l3 s12">
+                <h5 class="white-text">Robin Baumann</h5>
+                <ul>
+                    <li><a class="white-text" href="http://robinbaumann.github.io/">Home</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Social</h5>
+                <ul>
+                    <li>
+                        <a class="white-text" href="https://www.facebook.com/robin.baumann.33">
+                            <i class="small fa fa-facebook-square white-text"></i> Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="https://twitter.com/_RobinBaumann">
+                            <i class="small fa fa-twitter-square white-text"></i> Twitter
+                        </a>
+                    </li>
+                    <!-- place for more like linked or twitter -->
+                    <li>
+                        <a class="white-text" href="https://github.com/RobinBaumann">
+                            <i class="small fa fa-github-square white-text"></i> Github
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+            Made by <a class="white-text" href="http://robinbaumann.github.io">Robin Baumann</a>. Design framework <a class="white-text" href="http://materializecss.com/">materializecss</a>
+        </div>
+    </div>
+</footer>
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+    </body>
 </html>
