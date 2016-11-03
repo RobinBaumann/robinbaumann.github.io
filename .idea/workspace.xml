@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="446b8dc1-b510-4d44-b7ef-f9dc1274cdd2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
     </list>
     <ignored path="robinbaumann.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -876,7 +876,7 @@
       <option name="presentableId" value="Default" />
       <updated>1478174123393</updated>
       <workItem from="1478174128343" duration="8349000" />
-      <workItem from="1478187515131" duration="7390000" />
+      <workItem from="1478187515131" duration="7982000" />
     </task>
     <task id="LOCAL-00001" summary="basic layout +  website under construction message">
       <created>1478175721289</created>
@@ -889,7 +889,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15739000" />
+    <option name="totallyTimeSpent" value="16331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
