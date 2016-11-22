@@ -41,3 +41,6 @@
 .icon-hackerrank-logo:before {
   content: "\61";
 }
+.icon-hackerrank-wordmark:before {
+  content: "\62";
+}
