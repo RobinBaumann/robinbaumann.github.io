@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="446b8dc1-b510-4d44-b7ef-f9dc1274cdd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dlgr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/parallax.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/hackerrank/HackerRank_logo.eps" afterPath="$PROJECT_DIR$/img/icons/hackerrank/HackerRank_logo.eps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/min/custom-min.css" afterPath="$PROJECT_DIR$/min/custom-min.css" />
     </list>
     <ignored path="robinbaumann.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +37,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="115" column="106" lean-forward="false" selection-start-line="115" selection-start-column="106" selection-end-line="115" selection-end-column="106" />
+            <state relative-caret-position="232">
+              <caret line="171" column="0" lean-forward="false" selection-start-line="170" selection-start-column="24" selection-end-line="171" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -125,16 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin-min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/min/plugin-min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="83334" lean-forward="false" selection-start-line="5" selection-start-column="83334" selection-end-line="5" selection-end-column="83334" />
               <folding />
             </state>
           </provider>
@@ -240,6 +227,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robinbaumann.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robinbaumann.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackerrank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robinbaumann.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robinbaumann.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robinbaumann.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robinbaumann.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackerrank_font" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -618,7 +659,7 @@
       <workItem from="1478247994835" duration="736000" />
       <workItem from="1478377981894" duration="396000" />
       <workItem from="1491210499393" duration="2759000" />
-      <workItem from="1495453462043" duration="2345000" />
+      <workItem from="1495453462043" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="basic layout +  website under construction message">
       <created>1478175721289</created>
@@ -627,11 +668,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478175721289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed design and added dlgr">
+      <created>1495456166346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495456166346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22567000" />
+    <option name="totallyTimeSpent" value="23420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +743,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic layout +  website under construction message" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic layout +  website under construction message" />
+    <MESSAGE value="changed design and added dlgr" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed design and added dlgr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -706,14 +755,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/min/custom-min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/min/plugin-min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1074,6 +1115,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/icons/hackerrank/HackerRank_logo.eps">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/min/custom-min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1084,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="115" column="106" lean-forward="false" selection-start-line="115" selection-start-column="106" selection-end-line="115" selection-end-column="106" />
+        <state relative-caret-position="232">
+          <caret line="171" column="0" lean-forward="false" selection-start-line="170" selection-start-column="24" selection-end-line="171" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#1;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
