@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="446b8dc1-b510-4d44-b7ef-f9dc1274cdd2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/hackerrank/HackerRank_logo.eps" afterPath="$PROJECT_DIR$/img/icons/hackerrank/HackerRank_logo.eps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -37,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="171" column="0" lean-forward="false" selection-start-line="170" selection-start-column="24" selection-end-line="171" selection-end-column="0" />
+            <state relative-caret-position="386">
+              <caret line="147" column="114" lean-forward="false" selection-start-line="147" selection-start-column="114" selection-end-line="147" selection-end-column="114" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,7 +49,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="1000">
               <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
               <folding />
             </state>
@@ -70,7 +69,7 @@
       <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/materialize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8460">
+            <state relative-caret-position="10320">
               <caret line="516" column="27" lean-forward="false" selection-start-line="516" selection-start-column="20" selection-end-line="516" selection-end-column="27" />
               <folding />
             </state>
@@ -80,7 +79,7 @@
       <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="60">
               <caret line="3" column="1881" lean-forward="false" selection-start-line="3" selection-start-column="1868" selection-end-line="3" selection-end-column="1881" />
               <folding />
             </state>
@@ -190,6 +189,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,9 +302,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -659,7 +658,12 @@
       <workItem from="1478247994835" duration="736000" />
       <workItem from="1478377981894" duration="396000" />
       <workItem from="1491210499393" duration="2759000" />
-      <workItem from="1495453462043" duration="3198000" />
+      <workItem from="1495453462043" duration="3224000" />
+      <workItem from="1499086041077" duration="69000" />
+      <workItem from="1499433337338" duration="36000" />
+      <workItem from="1499591903336" duration="29000" />
+      <workItem from="1499775308679" duration="21000" />
+      <workItem from="1500733080662" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="basic layout +  website under construction message">
       <created>1478175721289</created>
@@ -675,11 +679,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495456166346</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed hackerrank profile link">
+      <created>1495457016145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495457016145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23420000" />
+    <option name="totallyTimeSpent" value="24288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,6 +703,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1920" height="1051" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -707,7 +719,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25641027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2724359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -744,7 +756,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic layout +  website under construction message" />
     <MESSAGE value="changed design and added dlgr" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed design and added dlgr" />
+    <MESSAGE value="removed hackerrank profile link" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed hackerrank profile link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -759,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="83334" lean-forward="false" selection-start-line="5" selection-start-column="83334" selection-end-line="5" selection-end-column="83334" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="83334" lean-forward="false" selection-start-line="5" selection-start-column="83334" selection-end-line="5" selection-end-column="83334" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="83334" lean-forward="false" selection-start-line="5" selection-start-column="83334" selection-end-line="5" selection-end-column="83334" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="83334" lean-forward="false" selection-start-line="5" selection-start-column="83334" selection-end-line="5" selection-end-column="83334" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="83334" lean-forward="false" selection-start-line="5" selection-start-column="83334" selection-end-line="5" selection-end-column="83334" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,7 +1093,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="60">
           <caret line="3" column="1881" lean-forward="false" selection-start-line="3" selection-start-column="1868" selection-end-line="3" selection-end-column="1881" />
           <folding />
         </state>
@@ -1093,7 +1101,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8460">
+        <state relative-caret-position="10320">
           <caret line="516" column="27" lean-forward="false" selection-start-line="516" selection-start-column="20" selection-end-line="516" selection-end-column="27" />
           <folding />
         </state>
@@ -1109,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="1000">
           <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
           <folding />
         </state>
@@ -1119,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,8 +1140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="171" column="0" lean-forward="false" selection-start-line="170" selection-start-column="24" selection-end-line="171" selection-end-column="0" />
+        <state relative-caret-position="386">
+          <caret line="147" column="114" lean-forward="false" selection-start-line="147" selection-start-column="114" selection-end-line="147" selection-end-column="114" />
           <folding>
             <element signature="n#style#0;n#span#1;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
