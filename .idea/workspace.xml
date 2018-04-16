@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446b8dc1-b510-4d44-b7ef-f9dc1274cdd2" name="Default" comment="added infocup repo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/intellitank.jpg" />
+    <list default="true" id="446b8dc1-b510-4d44-b7ef-f9dc1274cdd2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="robinbaumann.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -671,7 +669,7 @@
       <workItem from="1519213407215" duration="392000" />
       <workItem from="1519736814381" duration="4000" />
       <workItem from="1523517278112" duration="288000" />
-      <workItem from="1523891827864" duration="11000" />
+      <workItem from="1523891827864" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="basic layout +  website under construction message">
       <created>1478175721289</created>
@@ -701,11 +699,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500733783435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added infocup repo">
+      <created>1523891853207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523891853207</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26487000" />
+    <option name="totallyTimeSpent" value="26513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +723,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1920" height="1051" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
