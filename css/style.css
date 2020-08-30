@@ -1,7 +1,6 @@
 /* Custom Stylesheet */
 /**
  *
- * Made By Joash Pereira
  * Thanks for MaterializeCSS.com
  */
 
@@ -15,6 +14,7 @@
 
 #intro, #work, #team {padding-top: 4rem;}
 
+a {color: #19CF86}
 
 #index-banner {
     min-height: 632px;

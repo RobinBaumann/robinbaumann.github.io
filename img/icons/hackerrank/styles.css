@@ -12,6 +12,12 @@
 
 }
 
+.listing {
+  list-style: square inside;
+}
+
+a { color: #19CF86}
+
 [data-icon]:before {
   font-family: "untitled-font-1" !important;
   content: attr(data-icon);

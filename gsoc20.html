@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#19CF86">
+    <title>Robin Baumann</title>
+
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <link href="img/icons/hackerrank/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body id="top" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
+
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo">Robin Baumann</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Hero
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="text_h center header cd-headline letters type">
+            <span>HI! I'm <strong>Robin Baumann</strong></span> <br>
+            <span style="font-family: monospace, monospace; font-size: 30%; font-weight: lighter">Master student in Machine Learning from Karlsruhe, Germany.</span>
+        </h1>
+    </div>
+</div>-->
+
+<!--Intro and service-->
+<div id="about" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2"> Google Summer of Code 2020: <br \> Implement Mesh R-CNN in TensorFlow Graphics </h2>
+            </div>
+            
+            <div  class="col s12 m4 l4"></div>
+
+            <div  class="s12 m4 l4">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">Project Summary</h5>
+                    <p><a class="span_h2" target="_blank" href="https://summerofcode.withgoogle.com/projects/#5892825423544320">GSoC Projecet Page</a></p>
+
+                    <p>During my Google Summer of Code experience, I implemented the main components of <a href="https://arxiv.org/abs/1906.02739">Mesh R-CNN</a> 
+                        and a TensorFlow Datasets Provider for <a href="http://pix3d.csail.mit.edu/">Pix3D</a> for TensorFlow Graphics. It was a great experience and 
+                        I have learned a lot during the three months, not least because of the good support from my mentors. The following lines contain an overview of my achievements
+                    together with links to all work that I have submitted to the <a href="https://github.com/tensorflow/graphics">TensorFlow Graphics GitHub Repository</a>.</p>
+
+                    <h5 class="promo-caption">Objectives</h5>
+                    <ul>
+                        <li>Pix3D Dataset feature connectors (<a href="https://github.com/tensorflow/graphics/pull/386">PR #386</a>)</li>
+                        <li>Pix3D Dataset implementation (<a href="https://github.com/tensorflow/graphics/pull/410">PR #410</a>)</li>
+                        <li>Mesh R-CNN Core ops: Cubify and VertAlign (<a href="https://github.com/tensorflow/graphics/pull/437">PR #437</a>)</li>
+                        <li>Mesh R-CNN Network heads: Mesh Refinement (<a href="https://github.com/tensorflow/graphics/pull/441">PR #441</a>)</li>
+                        <li>Mesh R-CNN Loss functions: Mesh Losses (<a href="https://github.com/tensorflow/graphics/pull/449">PR #449</a>)</li>
+                        <li>Mesh R-CNN Network heads: Voxel branch (<a href="https://github.com/tensorflow/graphics/pull/450">PR #450</a>)</li>
+                        <li>Mesh R-CNN 3D Prediction integration (<a href="https://github.com/tensorflow/graphics/pull/450">PR #450</a>)</li>
+                    </ul>
+
+                    <b>Note:</b> 
+                    Since the project was very extensive, I had to limit myself to implementing the main components of Mesh R-CNN. 
+                    In consultation with my mentors, we decided to focus on high-quality, well tested implementations of the core ops of the 3D part of Mesh R-CNN rather than to set up an end-to-end pipeline with a 2D backbone.
+                    
+                    <h5>Main Challenges</h5>
+                    <p>Todo</p>
+
+                    <h5>Future Work</h5>
+                    <p>todo</p>
+
+                    <h5>Special thanks</h5>
+
+                    <p>My Google Summer of Code Experience was great and a large part of this great experience was the good mentoring of <span class="span_h2" >Avneesh Sud</span>, <span class="span_h2">Abhijit Kundu</span>
+                    and last but not least, <span class="span_h2">Paige Bailey</span>, who made me aware of the program and encouraged me to apply.</p>
+                   </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/parallax.jpeg"></div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">  
+        <div class="row">
+            <div class="col l3 s12">
+                <h5 class="white-text">Robin Baumann</h5>
+                <ul>
+                    <li><a class="white-text" href="http://robinbaumann.github.io/">Home</a></li>
+                    <li>
+                        <a class="white-text" href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#114;&#111;&#098;&#105;&#110;&#046;&#098;&#097;&#117;&#109;&#097;&#110;&#110;&#056;&#049;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+                            Email
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Social</h5>
+                <ul>
+                    <li>
+                        <a class="white-text" href="https://www.linkedin.com/in/robin-baumann-272959159/">
+                            <i title="Follow me on LinkedIn" class="small how fa fa-linkedin-square"></i>
+                        </a> &ensp;
+                        <a class="white-text" href="https://www.xing.com/profile/Robin_Baumann10">
+                            <i title="Follow me on XING" class="small hov fa fa-xing-square"></i>
+                        </a> &ensp;
+                        <a class="white-text" href="https://github.com/RobinBaumann">
+                            <i title="see my projects on Github" class="small hov fa fa-github-square"></i>
+                        </a> &ensp;
+                        <a class="white-text" href="https://twitter.com/_RobinBaumann">
+                            <i title="Follow me on Twitter" class="small hov fa fa-twitter-square" ></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+            Made by <a class="white-text" href="http://robinbaumann.github.io">Robin Baumann</a>
+            . Design framework:
+            <a class="white-text" href="http://materializecss.com/">materializecss</a>
+        </div>
+    </div>
+</footer>
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+    </body>
+</html>
