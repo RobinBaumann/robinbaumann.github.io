@@ -11,6 +11,11 @@
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
     <link href="img/icons/hackerrank/styles.css" type="text/css" rel="stylesheet">
 </head>
+
+<style>
+        ul.custom {list-style-type: circle;}
+</style>
+
 <body id="top" class="scrollspy">
 
 <!-- Pre Loader -->
@@ -75,7 +80,7 @@
                     together with links to all work that I have submitted to the <a href="https://github.com/tensorflow/graphics">TensorFlow Graphics GitHub Repository</a>.</p>
 
                     <h5 class="promo-caption">Objectives</h5>
-                    <ul>
+                    <ul class="custom">
                         <li>Pix3D Dataset feature connectors (<a href="https://github.com/tensorflow/graphics/pull/386">PR #386</a>)</li>
                         <li>Pix3D Dataset implementation (<a href="https://github.com/tensorflow/graphics/pull/410">PR #410</a>)</li>
                         <li>Mesh R-CNN Core ops: Cubify and VertAlign (<a href="https://github.com/tensorflow/graphics/pull/437">PR #437</a>)</li>
@@ -84,18 +89,39 @@
                         <li>Mesh R-CNN Network heads: Voxel branch (<a href="https://github.com/tensorflow/graphics/pull/450">PR #450</a>)</li>
                         <li>Mesh R-CNN 3D Prediction integration (<a href="https://github.com/tensorflow/graphics/pull/450">PR #450</a>)</li>
                     </ul>
+                    <br>
 
                     <b>Note:</b> 
                     Since the project was very extensive, I had to limit myself to implementing the main components of Mesh R-CNN. 
                     In consultation with my mentors, we decided to focus on high-quality, well tested implementations of the core ops of the 3D part of Mesh R-CNN rather than to set up an end-to-end pipeline with a 2D backbone.
-                    
                     <h5>Main Challenges</h5>
-                    <p>Todo</p>
+                    <p>The following list contains some of the main challenges I faced during the summer:</p>
+
+                    <ol>
+                        <li><b>Pix3D Dataset <tt>FeatureConnectors</tt></b>: The encoding schema for TensorFlow Datasets <tt>FeatureConnectors</tt> only supports one unknown dimension
+                        per feature. This is a problem for datasets containing multiple objects per image, which would usually store a list of all objects with corresponding
+                        labels together with one image. Nesting multiple objects to a list with unknown length (like the number of objects per image, which could vary for different images),
+                        forces the TFDS encoding to introduce additional dimensions of unknown size. As Pix3D has only one object per image, this is not particulary a problem, but most of the 2D backbones in e.g. the TensorFlow Object Detection API
+                        assume the provided data in a nested structure, as e.g. defined by the <a href="https://www.tensorflow.org/datasets/catalog/coco">COCO Dataset Provider</a>. Thus, these models could not be used out of the box with the Pix3D Dataset provider.</li>
+                        <li><b>Erros in Pix3D Dataset</b>: While exploring the Pix3D dataset and preparing the TFDS <tt>DatasetBuilder</tt>, we found that two samples of Pix3D are flawed. More precisely, two of the segmentation masks are of wrongly rendered. I raised an Issue in the official 
+                            <a href=https://github.com/xingyuansun/pix3d/issues/18>Pix3D GitHub Repository</a> and hopefully, the creators of Pix3D will fix this.
+                        Removing those samples from the new <tt>DatasetBuilder</tt> fixed the issue and makes the dataset usable. However, we still wanted to give users the ability to
+                        use the full dataset. Thus, we rendered the two wrong masks with the correct parameters(See <a href="https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/datasets/pix3d/fixed_masks">here</a>) and provide a documentation on how users could integrate those in their dataset in the <tt>DatasetInfo</tt> specification.</li>
+                        <li><b>Working with meshes</b>: Using meshes in an deep learning approach comes with many difficulties, as meshes representing different object may have different topologies and thus, a different number of vertices and faces each.
+                            One way to mitigate this is to pad vertex and face tensors to the same length and pass them through the ops. However, simply padding the meshes is not enough, since especially face and edge lists contain indices into the vertex list. Adding padding to these lists could lead to degenerate meshes. 
+                            To mitigate this, I implemented a <tt>Meshes</tt> class, which supports transformations of meshes into different representations while keeping track of all padded elements. This allows to use meshes of different size in a batch. The class also contains some additional functionality to efficiently extract vertex adjacencies from the batch of meshes.
+                            For more information <a href="https://github.com/RobinBaumann/graphics/blob/GSoC20_Mesh_R-CNN_integration/tensorflow_graphics/projects/mesh_rcnn/structures/mesh.py">have a look at the implementation.</a>
+                        </li>
+                        <li><b>High quality implementations</b>: Writing cumputational efficient, generalizable (in the means of supporting arbitrary batch dimension) and well tested code can be very challenging. Especially the implementation of cubify, which converts voxel grid occupancy probabilities to triangle meshes and the Mesh R-CNN mesh loss functions were very challenging. The <tt>Meshes</tt> class simplified a lot of those conversions between different 3D data representations.
+                            But I definately learned a lot during the discussions with my mentors.</li>
+                    </ol>
 
                     <h5>Future Work</h5>
-                    <p>todo</p>
+                    <p>Although the Google Summer of Code 2020 is officially over, I would love to continue working on this project. There are a few things that are still left to do, like the connection to a 2D backbone and running some experiments on the Pix3D dataset.
+                       Additionally, I will continue to address all comments in the pull requests and provide minor refactorings in the <tt>Meshes</tt> class, as I think this would be a really cool feature to have in the core TF Graphics repository.
+                    </p>
 
-                    <h5>Special thanks</h5>
+                    <h5>Special thanks</h5> 
 
                     <p>My Google Summer of Code Experience was great and a large part of this great experience was the good mentoring of <span class="span_h2" >Avneesh Sud</span>, <span class="span_h2">Abhijit Kundu</span>
                     and last but not least, <span class="span_h2">Paige Bailey</span>, who made me aware of the program and encouraged me to apply.</p>

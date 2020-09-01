@@ -12,9 +12,7 @@
 
 }
 
-.listing {
-  list-style: square inside;
-}
+ul.a {list-style-type: circle;}
 
 a { color: #19CF86}
 
