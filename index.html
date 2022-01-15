@@ -32,11 +32,13 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="cv/online_cv_robinbaumann.pdf">CV</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#about">About</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="cv/online_cv_robinbaumann.pdf">CV</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
@@ -65,7 +67,7 @@
             <div  class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <h5 class="promo-caption">Profile</h5>
-                    <p class="light center">I received my Masters degree with distinction from Karlsruhe University of Applied Sciences, where I specialized in Machine Learning. I am particularly interested in Computer Vision and its intersection with Computer Graphics.\\ I like to spend my free time doing all kinds of sports. For example, I currently prepare for a triathlon. To expand my knowledge, I read non-fiction books about different topics and enjoy spending time outdoors with my friends. My other passion besides sports is music. As such, I play the Saxophone and enjoy going to festivals and concerts.</p>
+                    <p class="light center">I received my MSc degree with distinction from Karlsruhe University of Applied Sciences, where I specialized in Machine Learning. I am particularly interested in Computer Vision and its intersection with Computer Graphics.\\ I like to spend my free time doing all kinds of sports. For example, I currently prepare for a triathlon. To expand my knowledge, I read non-fiction books about different topics and enjoy spending time outdoors with my friends. My other passion besides sports is music. As such, I play the Saxophone and enjoy going to festivals and concerts.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
@@ -100,6 +102,38 @@
     </div>
 </div>
 
+<!--Publications-->
+<div class="section scrollspy" id="work"></div>
+<div class="container">
+    <div class="row">
+        <div  class="col s12">
+            <h2 class="center header text_h2"> Publications </h2>
+        </div>
+
+        <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/mfi-paper.png" height="250">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Classification of 3D structures based on an object detection for facade elements in multiple views during the reconstruction process<i class="mdi-navigation-more-vert right"></i></span>
+                    <p><a target="_blank" href="https://ieeexplore.ieee.org/document/8780181">View on IEEE Xplore!</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Classification of 3D structures based on an object detection for facade elements in multiple views during the reconstruction process<i class="mdi-navigation-close right"></i></span>
+                    <p>
+                        <i>Rovin Baumann, Jan-Friso Evers-Senne, Marcus Strand</i> <br>
+                        Published in: <a href='https://ieeexplore.ieee.org/xpl/conhome/8767101/proceeding'>2019 IEEE International Conference on Industrial Cyber Physical Systems (ICPS)</a>
+                    </p>
+                    <p>The objective of this paper is to propose an approach which combines the multi view 3D reconstruction process of a building's facade with semantic information obtained by a deep neural network on the 2D observations of the considered scene. The object detector was used to annotate precise 2D features with semantic labels based on the object proposals. In a next step, spatially connected 2D features were evaluated to extend the initially computed labels to the whole facade element. The set of annotated 2D precise features was used to derive a classification of reconstructed 3D features. The a priori probabilities of the object detection model were used to compensate for biased predictions. The described approach was evaluated thoroughly with a view to different strategies for the annotation correction in 2D. Several failure patterns occurring in the considered application of facade reconstruction were observed and suggested solutions were given.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+</div>
+
 <!--Work-->
 <div class="section scrollspy" id="work">
     <div class="container">
@@ -107,6 +141,25 @@
             <div  class="col s12">
                 <h2 class="center header text_h2"> Work </h2>
             </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/tf-object-detection.png" height="250">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Deep Learning for Mobile Devices with TensorFlow Lite: <br> Train Your Custom Object Detector<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a target="_blank" href="https://www.inovex.de/de/blog/deep-learning-mobile-tensorflow-lite/">View Blogpost!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Deep Learning for Mobile Devices with TensorFlow Lite: <br> Train Your Custom Object Detector<i class="mdi-navigation-close right"></i></span>
+                        <p>This is a follow-up to my first article on concepts and architectures of Deep Learning for mobile devices. This article provides a step-by-step tutorial on how you can train your custom object
+                            detecor with the TensorFlow Object Detection API and prepare the model for the integration into an Android App.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -119,6 +172,39 @@
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Implement Mesh R-CNN in TensorFlow <i class="mdi-navigation-close right"></i></span>
                         <p>I participated in the Google Summer of Code 2020 for TensorFlow. During the three month period, I implemented Mesh R-CNN with TensorFlow 2 and a TensorFlow Datasets Provider for Pix3D for the TensorFlow Graphics team.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/atlasnet.png" height="250">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">TensorFlow AtlasNet V2 Implementation<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a target="_blank" href="https://github.com/RobinBaumann/TF-AtlasNetV2">View Code on GitHub!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Implement AtlasNet V2 in TensorFlow <i class="mdi-navigation-close right"></i></span>
+                        <p>In a university project, I implemented AtlasNet V2 in TensorFlow and conducted several experiments regarding the 3D reconstruction of articulated and non-articulated shapes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/blog-tf-lite-concepts.png" height="250">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Deep Learning for Mobile Devices with TensorFlow Lite: <br> Concepts and Architectures<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a target="_blank" href="https://www.inovex.de/de/blog/tensorflow-lite-concepts-architectures/">View Blogpost!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Deep Learning for Mobile Devices with TensorFlow Lite: <br> Concepts and Architectures<i class="mdi-navigation-close right"></i></span>
+                        <p>In this article, I cover several Deep Learning Architectures that are well suited to be run on mobile devices, like smartphones. I also tackle other concepts, like quantization.</p>
                     </div>
                 </div>
             </div>
@@ -160,7 +246,7 @@
                     </div>
                 </div>
             </div>
-
+<!--
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -177,7 +263,7 @@
                 </div>
             </div>
 
-
+-->
         </div>
     </div>
 </div>
