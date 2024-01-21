@@ -1,0 +1,203 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+%\profilepic{Bewerbungsfoto_RobinBaumann.jpg} % Profile picture
+\profilepic{}
+\cvname{Robin Baumann} % Your name
+\cvjobtitle{Research Associate} % Job title/career
+
+\cvdate{October 08, 1996} % Date of birth
+\cvaddress{Karlsruhe, Germany} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{} % Phone number
+\cvsite{\href{https://www.robin-baumann.com}{www.robin-baumann.com}} % Personal website
+\cvmail{} % Email address
+
+
+\usepackage[justification=centering]{caption}
+\captionsetup[figure]{labelformat=empty}
+
+\setlength{\itemsep}{-5mm}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\selectlanguage{english}\aboutme{I received my Masters degree with distinction from Karlsruhe University of Applied Sciences, where I specialized in Machine Learning. Now I work at the Intelligent Systems Research Group at HKA. My research interests are Computer Vision, Neural Fields,  and generative Models. Besides my work I live a very active lifestyle, doing different kinds of sports and spending time outside and with friends.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\selectlanguage{english}\skills{{Cloud Computing (AWS, Azure)/2},{Docker/4},{Git/4},{Pandas/4},{NumPy /5},{PyTorch/5},{Python/5}}
+
+
+
+\makeprofile % Print the sidebar
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	
+	\twentyitem{\owncvdate{10}{19} -- \owncvdate{10}{21}}{Karlsruhe University of Applied Sciences}{}{M.Sc. in Computer Science, Final Grade: 1,2 (GPA equivalent: 4,0)}
+	\twentyitem{\owncvdate{10}{15} -- \owncvdate{09}{18}}{Baden-Württemberg Cooperative State University}{}{B.Sc. in Computer Science. Final Grade: 1,4 (GPA equivalent: 3,7)}
+	%\twentyitem{2001-2013}{High school}{}{Specializing in Non-medical.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\vspace{0.6cm}
+
+%----------------------------------------------------------------------------------------
+%	 Employment History
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{\owncvdate{07}{22} -- today}{Research Associate}{Karlsruhe University of Applied Sciences (HKA)}{Research in Computer Vision
+		\small
+		\begin{itemize}
+			\item Reconstruction of humans from images/videos
+		\end{itemize}    
+	}
+	\twentyitem{\owncvdate{11}{21} -- \owncvdate{06}{22}}{Data Scientist (80 \%)}{inovex GmbH}{Mostly Computer Vision Projects
+		\small
+		\begin{itemize}
+			\item Image recognition and foreground segmentation.
+		\end{itemize}    
+	}
+	\twentyitem{\owncvdate{11}{21} -- \owncvdate{02}{22}}{Research Assistant (20 \%)}{Karlsruhe University of Applied Sciences}{Continuation of research from Master's thesis
+		\small
+		\begin{itemize}
+			\item Effects of data deficiency on shape encoding produced by shape autoencoders used in Neural Fields. 
+		\end{itemize}    
+	}
+	\twentyitem{\owncvdate{10}{19} -- \owncvdate{10}{21}}{Working Student and Thesis Student}{inovex GmbH}{Several Deep Learning and Data Science projects.
+		\small
+		\begin{itemize}
+			\item Deep Learning for mobile devices with TensorFlow Lite
+		\end{itemize}    
+	}
+	
+	\twentyitem{\owncvdate{10}{18} -- \owncvdate{09}{18}}{Big Data Scientist}{inovex GmbH}{Projects in Deep Learning and Data Engineering.
+		\small
+		\begin{itemize}
+			\item Point Cloud Classification for iOS Application with TensorFlow
+		\end{itemize}
+	}
+	
+	\twentyitem{\owncvdate{10}{15} -- \owncvdate{09}{18}}{Cooperative Student of Computer Science}{Testo SE \& Co. KGaA}{Circled through many teams in the R\&D department.}
+\end{twenty}
+
+\vspace{0.6cm}
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications}
+
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{2019}{R. Baumann, J. Evers-Senne and M. Strand, "Classification of 3D structures based on an object detection for facade elements in multiple views during the reconstruction process" \newline \small2019 IEEE International Conference on Industrial Cyber Physical Systems (ICPS), Taipei, Taiwan, pp. 230-235, doi: 10.1109/ICPHYS.2019.8780181.}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{\owncvdate{04}{21} -- \owncvdate{10}{21}}{Master Thesis}{inovex GmbH}{"Autodecoders for 3D shape completion from deficient 3D input"
+		\small
+		\begin{itemize}
+			\item Reconstruction of articulated and non-articulated shapes from single-view depth maps using Neural Occupancy Fields.
+		\end{itemize}
+		
+	}
+	
+	\twentyitem{\owncvdate{05}{20} -- \owncvdate{08}{20}}{Google Summer of Code}{TensorFlow}{Implemented Mesh R-CNN and Pix3D in TensorFlow Graphics.}
+	
+	\twentyitem{\owncvdate{06}{18} -- \owncvdate{09}{18}}{Bachelor Thesis}{Testo Visual Systems GmbH}{
+		"Classification of reconstructed 3D structures based on object recognition of facade elements in multiple images"
+		\small
+		\begin{itemize}
+			\item Integrate Object Detection CNN into Structure from Motion pipeline
+			\item Fuse semantic information from CNN into 3D reconstruction
+	\end{itemize}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\vspace{0.6cm}
+%----------------------------------------------------------------------------------------
+%	 INTERPERSONAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Interpersonal Skills}
+
+I always try to build rapport with my co-workers. I do so by engaging in discussions and knowledge sharing sessions. I try to lead by example and am received as a reliable co-worker by my peers.
+
+\vspace{-0.5cm}
+\begin{figure*}[b!]
+	\hfill
+	\begin{minipage}{.3\textwidth}\centering
+		\href{https://www.robin-baumann.com}{\includegraphics[width=0.5\linewidth]{qr}}
+		\caption{\small \textit{For an overview of my work and publications check out my website!}}
+	\end{minipage}
+\end{figure*}
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
